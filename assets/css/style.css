@@ -1,0 +1,39 @@
+body {
+  background-color: #f5f9ff;
+}
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('../images/student.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.icon-box {
+  font-size: 2rem;
+}
+.badge-number {
+  width: 40px;
+  height: 40px;
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.card-title {
+  display: flex;
+  align-items: center;
+}
+.card {
+  border: 1px solid #dbe9ff;
+  background-color: #ffffff;
+}
+.navbar,
+footer {
+  background-color: #0d6efd !important;
+}
